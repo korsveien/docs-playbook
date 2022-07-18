@@ -1,6 +1,11 @@
-name: pederdoc
-title: Pederdoc
-version: 0.0.1
-start_page: ROOT:index.adoc
-nav:
-- modules/ROOT/nav.adoc
+site:
+  title: My Doc Site
+  url: https://docs.pdr.io
+  start_page: docs::index.adoc
+content:
+  sources:
+  - url: https://github.com/pederpus/docs.git
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
